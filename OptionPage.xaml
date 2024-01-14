@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Salon_Infrumusetare2.OptionPage"
+             Title="OptionPage">
+    <VerticalStackLayout Spacing="25" Padding="30">
+        <Button x:Name="btnSpecialisti" Text="Specialiști" Clicked="OnSpecialistiClicked" />
+        <Button x:Name="btnServicii" Text="Servicii" Clicked="OnServiciiClicked" />
+        <Button x:Name="btnRecenzii" Text="Recenzii" Clicked="OnRecenziiClicked" />
+        <Button x:Name="btnClienti" Text="Clienți" Clicked="OnClientiClicked" />
+    </VerticalStackLayout>
+</ContentPage>

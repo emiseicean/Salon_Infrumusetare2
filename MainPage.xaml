@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Salon_Infrumusetare2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Bun venit la Salonul Beauty Concept!"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                SemanticProperties.HeadingLevel="Level1" />
+            <Image
+                Source="salon.png"
+                HeightRequest="200"
+                Aspect="AspectFit"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Descoperiți Frumusețea la Beauty Concept"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                SemanticProperties.HeadingLevel="Level2" />
+
+            <Label
+                Text="Salonul nostru, un sanctuar al frumuseții unde eleganța se întâlnește cu îngrijirea personalizată. Vă invităm într-o călătorie inedită în lumea rafinată a serviciilor de înfrumusețare și relaxare."
+                FontSize="Small"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="'Beauty Concept' este mai mult decât un salon de înfrumusețare; este un concept de frumusețe personalizat pentru fiecare client. Intră în lumea noastră și descoperă cum putem sărbători și evidenția frumusețea ta unică."
+                FontSize="Small"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="ExploreazaBtn"
+                Text="Exploreaza site-ul"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnExploreazaBtnClicked"
+                HorizontalOptions="Fill" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
